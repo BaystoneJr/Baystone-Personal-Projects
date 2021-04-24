@@ -1,0 +1,21 @@
+{
+    "getAllPersons": [
+        "select personID, firstname, lastname, section, paycheck from person"
+    ],
+    "getPerson" : [
+        "select personID, firstname, lastname, section, paycheck from person",
+        "where personID=?"
+    ],
+    "addPerson" : [
+        "insert into person (personID, firstname, lastname, section, paycheck from person",
+        "values(?,?,?,?,?)"
+    ],
+    "deletePerson" : [
+        "delete from person where personID=?"
+    ],
+    "updatePerson": [
+        "update person set etunimi=?, sukunimi=?, section=?, paycheck=?",
+        "where personID=?"
+    ]
+
+}

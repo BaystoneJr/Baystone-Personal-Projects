@@ -1,0 +1,27 @@
+{
+    "debug" : true,
+    "host" : "localhost",
+    "mysqlport" : 3306,
+    "admin" : "root",
+    "adminpassword": "",
+    "user" : "Mikael",
+    "password" : "onparas",
+    "dropUser" : true,
+    "database" : "personDB",
+    "tables" : [
+        {
+            "name" : "person",
+            "rows" : [
+                "personID INTEGER NOT NULL PRIMARY KEY",
+                "firstname VARCHAR(20) NOT NULL",
+                "lastname VARCHAR(20) NOT NULL",
+                "section VARCHAR(55) NOT NULL",
+                "paycheck DECIMAL(6,2)"
+            ],
+            "data": [
+                [1, "Joku", "Random", "homojenhommat", 5],
+                [2, "Tama", "Toinen", "senhommat", 5000]
+            ]
+        }
+    ]
+}
