@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MySchedule</string>
+    <string name="WelcomeFragmentHeader">Welcome to mySchedule</string>
+    <string name="WelcomeFragmentInfo">Welcome to mySchedule, your app for scheduling your daily life. By clicking the button below, you will run through the setup for the app. After the setup is complete, you can start using the app.</string>
+    <string name="WelcomeFragmentButton">Start the setup</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
