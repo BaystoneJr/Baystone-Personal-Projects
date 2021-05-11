@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        This is a resource file for the health problems and solutions that the program offers. All of
+        the problems are stored in string arrays with the corresponding name in Finnish. Single array
+        has 7 items:
+            1. name of the problem
+            2. description
+            3. Question for the chatbot (if needed, if no question, write line character (-))
+            4. If you need to write emergency services
+            5. If you need to see medical personel (if empty, write line character)
+            6. If you can treat it yourself (if empty, write line character)
+            7. More info (if empty, write line character)
+     -->
+    <!-- Example -->
+    <string-array name="allerginenReaktio">
+    <!-- 1. --> <item>Allerginen Reaktion(Vakava)</item>
+        <!-- 2. -->    <item>Vakava allerginen reaktio (anafylaksia) alkaa yleensä ihon kutinalla, punoituksella (lehahtelulla) ja pistelyllä, joka leviää nopeasti ympäri kehoa. Ihoon nousee nokkosihottumaa ja varsinkin kasvoihin, kaulalle ja limakalvoille turvotusta. Oireet kehittyvät nopeasti, jopa minuuteissa. Ilman nopeaa ja oikeanlaista ensiapua, tilanne voi kehittyä tavallisesta nokkosihottumasta jopa hengenvaaralliseksi sokkitilaksi. Reaktio on yleensä sitä vaikeampi, mitä nopeammin oireet ilmenevät.</item>
+        <!-- 3. -->    <item>-</item>
+        <!-- 4. -->    <item>\n•	sinulla tai läheiselläsi on vakavaan allergiseen reaktioon viittaavia oireita (ihon kutina, punoitus (lehahtelulla) ja pistely, joka leviää nopeasti ympäri kehoa)
+\n•	allergiseen reaktioon liittyy kasvojen, kaulan tai limakalvojen on turvotusta</item>
+        <!-- 5. -->   <item>-</item>
+        <!-- 6. --><item>-</item>
+        <!-- 7. --><item>Anafylaksian aiheuttajana voi olla ruoka-aine, hyönteisen pisto, lääkeaine tai jokin muu tekijä.
+Jos tiedossa on aiempia rajuja yliherkkyysreaktioita, on tärkeää ennaltaehkäistä anafylaksian mahdollisuus välttämällä reaktion aiheuttajaa ja pitämällä mahdollisesti aiemmin määrätty adrenaliiniruisku (Jext- tai EpiPen-autoinjektori) aina mukana. Myös mahdollinen SOS-passi, johon on merkitty allergiat, on hyvä kuljettaa mukana.
+\nLisätietoa linkeistä:
+\nhttps://www.terveyskirjasto.fi/dlk00201?q=anafylaksia
+\nhttps://www.terveyskyla.fi/allergia-astmatalo/allergia/anafylaktinen-reaktio
+</item>
+    </string-array>
+    <string-array name="halvausTaiHeikkous">
+        <item>Halvaus tai heikkous</item>
+        <item>Halvaus tarkoittaa jonkin liikehermon toiminnan lamautumista, jonka johdosta lihasten toiminta heikentyy joko yksittäisessä raajassa tai sekä ylä- että alaraajassa kehon samalla puolella. Halvaus voi ilmetä myös kasvolihaksissa, nielussa tai silmän lihaksissa.Halvaus voi johtua hermotoiminnan häiriintymisestä tai loppumisesta jossakin kehon osassa, ääreishermoston vaurioitumisesta tai hermojuuren tulehduksesta. Aivohalvaukseen liittyy usein raajaoireiden lisäksi myös puhe-, tunto- ja näköhäiriöitä sekä sekavuutta.</item>
+        <item>Onko äkillisesti alkaneita halvausoireita?</item>
+        <item>\njos sinulla tai läheiselläsi on äkillisesti alkaneita halvausoireita</item>
+        <item>\nSeuraa tilannetta, jos tilanne pahenee, hakeudu päivystykseen tai soita 112</item>
+        <item>-</item>
+        <item>
+Aivohalvaus syntyy verenkiertohäiriön vahingoittaessa yleensä toista aivopuoliskoa, jonka johdosta kehon vastakkaisella puolella ilmenee halvausoireita.
+Selkäydinvammat tai -sairaudet voivat aiheuttaa halvauksia joko yhden tai useamman raajan toiminnassa tai jopa neliraajahalvauksen.Oireet riippuvat vaurion sijainnista ja tasosta.
+Ääreishermoston toimintahäiriöt voivat aiheuttaa paikallisia halvauksia kyseisen hermon vaikutusalueella. Toisinaan jokin yleissairaus voi häiriinnyttää ääreishermoston toimintaa siten, että halvauksia on useassa paikassa ympäri kehoa.
+\nLisätietoa linkeistä:
+\nhttps://www.terveyskirjasto.fi/dlk00018
+\nhttps://www.terveyskyla.fi/aivotalo/sairaudet/aivoverenkiertoh%C3%A4iri%C3%B6t
+</item>
+    </string-array>
+    <string-array name="hengenAhdistus">
+        <item>Hengenahdistus</item>
+        <item>Hengitysilman riittämättömyys ilmenee epämiellyttävänä tuntemuksena hapen loppumisesta. Hengitysteiden ahtautuessa tai mennessä kokonaan tukkoon, ilma ei kulje normaalisti ja siitä seuraa äkillinen, voimakas tukehtumisen tunne. Yleisempää on kuitenkin, että hengenahdistus kehittyy hitaammin. Aluksi hengästymistä voi tuntua vain ruumiillisessa rasituksessa, mutta sairauden vaikeutuessa voi henkeä ahdistaa jo levossakin. Hengenahdistusta esiintyy monien sairauksien yhteydessä.</item>
+        <item>Onko hengitysvaikeudesta kärsivä henkilö menettänyt tajuntansta tai kokee rintakipua?</item>
+        <item>\n•	vaikeutunut hengitys ei korjaannu nopeasti tai tilanne pahenee
+\n•	hengenahdistus johtuu vierasesineestä
+\n•	hengenahdistukseen liittyy rintakipua
+\n•	hengitysvaikeudesta kärsinyt menettää tajuntansa
+</item>
+        <item>sinulla on äkillisesti alkanut hengenahdistus</item>
+        <item>-</item>
+        <item>Hengenahdistuksen voi jaotella sen alkamisen nopeuden mukaan: \na) äkillisesti alkava hengenahdistukseen,\nb) parin päivän sisällä kehittyvään hengenahdistukseen ja \nc) hitaasti kehittyvään hengenahdistukseen.
+
+\nÄkillisen hengenahdistuksen aiheuttajia voivat ovat mm. vierasesineen joutuminen henkitorveen, äkillinen astmakohtaus tai keuhkoahtaumataudin vaikeutuminen, ilmarinta, keuhkoveritulppa (keuhkoembolia) tai vakava allerginen reaktio (anafylaksia).
+
+\nParin päivän sisällä kehittyvään hengenahdistukseen syynä voi olla keuhkojen tulehdustila, astman pahenemisvaihe tai nopeasti kehittyvä sydämen vajaatoiminta.
+
+\nHitaasti kehittyvän hengenahdistuksen syynä on yleisimmin jokin keuhkosairaus kuten keuhkoahtaumatauti. Keuhkoahtaumataudin yhteydessä hengenahdistus kehittyy hitaasti kuukausien ja vuosien kuluessa. Muita hitaasti pahenevaa hengenahdistusta aiheuttavia sairauksia ovat mm. sydämen vajaatoiminta ja anemia.
+
+\nPaniikkikohtaus voi aiheuttaa hengenahdistuksen tunnetta. Tällöin tuntuu kuristumisen, hengenahdistuksen ja tukehtumisen tunnetta. Hengitys on tiheää ja syvää (hyperventilaatio). Oire johtuu paniikkikohtaukseen liittyvästä psyykkisestä reaktiosta, ei hengitystieperäisestä syystä.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00020?q=hengenahdistus
+</item>
+    </string-array>
+    <string-array name="huimausTasapainoKavelyVaikeus">
+        <item>Huimaus, tasapainohäiriö, kävelyvaikeus</item>
+        <item>Huimaus/tasapainohäiriö ja kävelyvaikeus voivat olla merkki aivoverenkiertohäiriöstä. Aivoverenkiertohäiriöt alkavat yleensä äkillisesti. Aivoverenkiertohäiriöön viittaavia oireita ovat äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. Joskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä. Oireiden taustalla voi olla aivovaltimon tukos tai vuoto.</item>
+        <item>Onko henkilöllä aivoverenkiertohäiriöön liittyviä oireita? (Suunpieli roikkuu, käden/jalan voimattomuus/tunnottomuus, puheen ontuminen)</item>
+        <item>\nsinulla tai läheiselläsi on aivoverenkiertohäiriöön viittaavia oireita, kuten äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. \nJoskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä</item>
+        <item>\nSoita 112 jos havaitset henkilössä yhdenkin äkillisen aivoverenkiertohäiriöön liittyvän oireen vuoksi, jotta aivoinfarkti voidaan mahdollisesti estää.</item>
+        <item>-</item>
+        <item>Aivoverenkiertohäiriö on yhteisnimitys aivoinfarktille, aivoverenvuodolle ja ohimenevälle aivoverenkiertohäiriölle (TIA). Aivoinfarkti ja aivoverenvuoto tunnetaan myös yhteisnimellä aivohalvaus. Aivoverenkiertohäiriöissä aivokudosta tuhoutuu äkillisen verenkierron häiriintymisen vuoksi. Aivoverenkiertohäiriöihin sairastuu vuosittain noin 24 000 suomalaista, joista neljäsosa on työikäisiä.
+\nAivoinfarkti
+\nAivovaltimon tukos aiheuttaa aivojen hapenpuutetta aivovaltimon suonittamalla alueella. Hapenpuutteen seurauksena syntyy kuolio eli infarkti. Aivovaltimotukoksen aiheuttaa yleensä valtimoiden kovettumatauti tai sydämestä lähtöisin oleva verihyytymä. Yleisin syy sydämestä lähtöisin olevalle verihyytymälle on sydämen rytmihäiriö.
+\nAivoverenvuoto
+\nAivoverenvuodossa aivovaltimo repeää ja vuotaa verta aivokudokseen. Verenvuoto aiheuttaa painetta vuotoa ympäröivälle aivoalueelle. Paineen seurauksena kyseisen aivoalueen hermokudoksen toiminta häiriintyy ja verenkierto vähenee vuotavan suonen alueella.
+\nTIA
+\nOhimenevän aivoverenkiertohäiriön (TIA) oireet ovat samanlaisia kuin aivohalvauksessakin, mutta oireet menevät itsestään ohitse tunnin tai viimeistään vuorokauden kuluessa. Oireiden ohimeno ei tarkoita, että tilanne olisi vaaraton. Noin yhdellä potilaalla kymmenestä ilmaantuu myöhemmin aivohalvaus.
+\nLisätietoa linkeistä:\nhttps://www.terveyskirjasto.fi/dlk00001 \nhttps://www.terveyskyla.fi/aivotalo/sairaudet/aivoverenkiertoh%C3%A4iri%C3%B6t
+</item>
+    </string-array>
+    <string-array name="kemikaaliAltistus">
+        <item>Kemikaalialtistus</item>
+        <item>Lukuisat eri kemikaalit voivat aiheuttaa myrkytyksiä. Kodin pesu- ja puhdistusaineet, kosmetiikka sekä teknokemian tuotteet ovat tavallisimpia kemikaalimyrkytysten aiheuttajia. Suurin osa näiden aiheuttamista myrkytyksistä voidaan hoitaa kotikonstein. Ammattikäyttöön tarkoitetut kemikaalit voivat aiheuttaa vakavia, päivystyksellistä hoitoa vaativia myrkytyksiä.
+        Oireiden vakavuus ja ilmaantumisen nopeus riippuvat kemikaalista, sen määrästä ja tavasta miten aine on joutunut elimistöön. Myrkytystietokeskus vastaa numerossa 0800 147111 (varanumero 09 471 977) ympäri vuorokauden äkillisten kemikaalien altistuksiin ja niihin liittyvien myrkytysten ehkäisyyn ja hoitoon liittyviin kysymyksiin.
+        </item>
+        <item>
+            Liittykö kemikaalialtistukseen henkeä uhkaava tilanne? (Kouristelua, hengitysvaikeutta, tajuuttomuutta)
+        </item>
+        <item>
+           \n kemikaalialtistukseen liittyy henkeä uhkaava tilanne (esim. hengitysvaikeus, tajuttomuus, äkillinen kouristelu)
+        </item>
+        <item>
+           \n •	epäilet kemikaalin aiheuttamaa myrkytystä. Soita Myrkytystietokeskukseen 0800 147 111 (24/7).
+           \n •	Voinnin ja oireiden kehittymistä on syytä seurata Myrkytystietokeskuksen antamien ohjeiden mukaisesti. Mikäli oireet jatkuvat, pahenevat tai voinnissa tapahtuu selkeä muutos huonompaan, on syytä hakeutua oman terveyskeskuksen kiirevastaanotolle tai päivystykseen.
+        </item>
+        <item>
+            -
+        </item>
+        <item>
+            Myrkytystietokeskuksen aineluettelosta löydät lisätietoa eri kemikaalien myrkyllisyydestä. Syötä hakukenttään etsimäsi aineen tai kemikaalin nimi.
+            \nLisätietoa linkistä: \nhttps://www.hus.fi/haku/myrkytystietokeskus
+        </item>
+    </string-array>
+    <string-array name="kouristusKohtaus">
+        <item>
+            Kouristuskohtaus
+        </item>
+        <item>
+            Kouristuskohtauksen aikana kaikki raajat ja vartalon lihakset kouristelevat. Kohtauksen aikana tajunta katoaa eikä ihmiseen saa kontaktia. Leukalihasten kouristuksen vuoksi henkilö voi purra kieleensä ja hän voi tahattomasti virtsata tai ulostaa alleen kohtauksen aikana.
+        </item>
+        <item>
+            Kärsiikö henkilö aktiivisesti kouristuskohtauksesta? (Raajat ja lihakset kouristelevat)
+        </item>
+        <item>
+            \n•	epäilet tai näet jonkun kärsivän kouristuskohtauksesta
+            \n•	epilepsiaa sairastavan henkilön kouristuskohtaus ei mene ohi viidessä minuutissa, uusiutuu ennen kuin henkilö on toipunut edellisestä kohtauksesta tai henkilön tajunnan taso ei korjaudu kohtauksen jälkeen
+        </item>
+        <item>
+            \n•	kouristuskohtaus on mennyt ohitse, mutta kyseessä on elämäsi ensimmäinen kouristuskohtaus
+            \n•	sairastat epilepsiaa ja olet saanut saman päivän aikana useita toistuvia kouristuskohtauksia
+            \n•	olet saanut kouristuskohtauksen, mutta sinulla ei ole tiedossa olevaa sairautta, kuten epilepsiaa
+\nOta yhteyttä terveydenhuollon ammattilaiseen ensisijaisesti omaan terveyskeskukseen vuorokauden kuluessa.
+        </item>
+        <item>
+            -
+        </item>
+        <item>
+            \nUsein kouristus johtuu aivojen sähköisen toiminnan äkillisestä häiriöstä, jolloin puhutaan epileptisestä kohtauksesta. Yleensä seurauksena on yleistynyt kouristuskohtaus ja tajuttomuus, mutta epilepsian oireena voi joskus olla myös paikallisia kouristuksia. Epileptiselle kohtaukselle on luonteenomaista kieleen pureminen. Muista syistä aiheutuneet kouristuskohtaukset voivat aiheuttaa muita yllä mainittuja kouristukseen liittyviä oireita, mutta ei kieleen puremista.
+        </item>
+    </string-array>
+    <string-array name="kadenJalanVoimattomuus">
+        <item>Käden ja/tai jalan voimattomuus</item>
+        <item>Käden ja/tai jalan voimattomuus tai tunnottomuus voi olla merkki aivoverenkiertohäiriöstä. Aivoverenkiertohäiriöt alkavat yleensä äkillisesti. Aivoverenkiertohäiriöön viittaavia oireita ovat äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. Joskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä. Oireiden taustalla voi olla aivovaltimon tukos tai vuoto.</item>
+        <item>Onko henkilöllä aivoverenkiertohäiriöön liittyviä oireita? (Suunpieli roikkuu, käden/jalan voimattomuus/tunnottomuus, puheen ontuminen) </item>
+        <item>\n•	sinulla tai läheiselläsi on aivoverenkiertohäiriöön viittaavia oireita, kuten äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. Joskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä</item>
+        <item>\nSeuraa tilannetta, jos tilanne pahenee tai oireet eivät lähde pois tietyssä ajassa, tai vastaavat aivoverenkierronhäiriötä, soita 112</item>
+        <item>-</item>
+        <item>Aivoverenkiertohäiriö on yhteisnimitys aivoinfarktille, aivoverenvuodolle ja ohimenevälle aivoverenkiertohäiriölle (TIA). Aivoinfarkti ja aivoverenvuoto tunnetaan myös yhteisnimellä aivohalvaus. Aivoverenkiertohäiriöissä aivokudosta tuhoutuu äkillisen verenkierron häiriintymisen vuoksi. Aivoverenkiertohäiriöihin sairastuu vuosittain noin 24 000 suomalaista, joista neljäsosa on työikäisiä.
+
+\nAivoinfarkti
+
+\nAivovaltimon tukos aiheuttaa aivojen hapenpuutetta aivovaltimon suonittamalla alueella. Hapenpuutteen seurauksena syntyy kuolio eli infarkti. Aivovaltimotukoksen aiheuttaa yleensä valtimoiden kovettumatauti tai sydämestä lähtöisin oleva verihyytymä. Yleisin syy sydämestä lähtöisin olevalle verihyytymälle on sydämen rytmihäiriö.
+
+\nAivoverenvuoto
+
+\nAivoverenvuodossa aivovaltimo repeää ja vuotaa verta aivokudokseen. Verenvuoto aiheuttaa painetta vuotoa ympäröivälle aivoalueelle. Paineen seurauksena kyseisen aivoalueen hermokudoksen toiminta häiriintyy ja verenkierto vähenee vuotavan suonen alueella.
+
+\nTIA
+
+\nOhimenevän aivoverenkiertohäiriön (TIA) oireet ovat samanlaisia kuin aivohalvauksessakin, mutta oireet menevät itsestään ohitse tunnin tai viimeistään vuorokauden kuluessa. Oireiden ohimeno ei tarkoita, että tilanne olisi vaaraton. Noin yhdellä potilaalla kymmenestä ilmaantuu myöhemmin aivohalvaus.
+</item>
+    </string-array>
+    <string-array name="liikenneOnnettomuus">
+        <item>Liikenneonnetomuus</item>
+        <item>Liikenneonnettomuuksien uhreille tyypillisiä vammoja ovat aivo- ja monivammat sekä vaikeat kudosvauriot. Tämän vuoksi liikenneonnettomuuksien uhreilla on suuri kuolleisuusriski. Yleensä vahingot syntyvät, kun ajoneuvossa oleva henkilö iskeytyy ajoneuvon rakenteita vasten. Jalankulkijan kaatuminen ei ole liikenneonnettomuus, polkupyörällä kaatuminen sen sijaan on.</item>
+        <item>-</item>
+        <item>\non tapahtunut liikenneonnettomuus</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Ajoneuvon korin rakenteet ja turvavyöt suojaavat yleensä liikenneonnettomuuksien uhreja vakavilta vammoilta. Vammapotilaat kuljetetaan välittömästi sairaalahoitoon.
+\nLiikenneturvan mukaan tieliikenneonnettomuus on henkilö- tai omaisuusvahinkoon johtanut tapahtuma, joka on sattunut tieliikennelain mukaan yleiselle liikenteelle tarkoitetulla tai yleisesti liikenteeseen käytetyllä alueella ja jossa on osallisena ainakin yksi liikkuva kulkuneuvo. Tieliikennelaissa määriteltyjen ajoneuvojen lisäksi osallisiksi kulkuneuvoiksi luetaan myös raitiovaunu ja juna tasoristeysonnettomuuksissa.
+\nLisätietoa linkistä: \nhttps://www.terveyskyla.fi/paivystystalo/p%C3%A4ivystykseen/toiminta-h%C3%A4t%C3%A4tilanteessa
+</item>
+    </string-array>
+    <string-array name="lampoUupumusTaiHalvaus">
+        <item>Lämpöuupumus tai -halvaus</item>
+        <item>Pitkäaikainen oleskelu tai raskas fyysinen rasitus kuumassa ympäristössä nostavat helposti ruumiin normaalia lämpötilaa. Oireena voi olla päänsärkyä, pahoinvointia, huimausta, ärtyneisyyttä ja sekavuutta. Vakavammissa tapauksissa oireina ovat edellisten lisäksi näköhäiriöt, heikotus, oksentelu, ripuli, nihkeä ja kylmänhikinen iho. Nestetasapainon kärsiessä ja elimistön kuivuessa hikoilu ja virtsan tulo loppuvat, hengitys voi muuttua epätasaiseksi, syke nopeaksi, verenpaine voi madaltua ja tila saattaa johtaa kouristeluihin, tajuttomuuteen tai jopa kuolemaan.</item>
+        <item>Liittykö tilanteeseen kouristuksia tai tajunnan taso laskua? </item>
+        <item>\n•	Soita 112 jos: lämpöuupumukseen liittyy kouristuksia tai tajunnan tason laskua
+\n•	sinulla on rintakipua, sydänoireita tai voimakasta hengenahdistusta
+\n•	hikoilu tai virtsan tulo loppuvat, iho tuntuu kuivalta ja ihon väri muuttuu sinertäväksi
+</item>
+        <item>
+            \n•	sinulla ilmenee lievempiä lämpöuupumuksen oireita (päänsärkyä, pahoinvointia, huimausta, ärtyneisyyttä ja sekavuutta), jotka eivät helpotu elimistön viilentämisellä
+\nOta yhteyttä heti oman terveyskeskuksen kiirevastaanotolle tai päivystykseen.
+        </item>
+        <item>
+            -
+        </item>
+        <item>
+            Liialliselle ruumiinlämmön nousulle altistavat esimerkiksi huono nestetasapaino, ylipaino, ikä, huono yleiskunto tai toipilasaika, alkoholi, eräät sairaudet ja lääkkeet, riittämätön ilmastointi ja vääränlainen pukeutuminen.
+
+\nLämpösairaudet voidaan jakaa vakavuuden mukaan lämpöhalvaukseen, lämpöuupumukseen ja auringonpistokseen.
+
+\nLämpöuupuminen
+
+\nLämpöuupuminen on lämpöhalvauksen esiaste, jonka suurimpana syynä on huono neste- ja/tai suolatasapaino. Lämpöuupuminen voi kehittyä hikoiltaessa kuumassa ja kosteassa ympäristössä ja samanaikaisesti juodaan nesteitä liian vähän (tai ei ollenkaan) tai juodaan liian vähän suoloja sisältäviä nesteitä. Oireina saattaa olla sekavuutta, heikotusta, huimausta, päänsärkyä, pahoinvointia ja oksentelua, nihkeä ja kylmänhikinen iho, epätasainen hengitys, nopea syke tai jopa tajuttomuus.
+
+\nLämpöhalvaus
+
+\nLämpöhalvaus on vakavin lämpösairauksista. Ruumiinlämpö nousee, kun elimistö ei enää pysty poistamaan lämpöä riittävästi. Soluvaurioita syntyy, kun ruumiinlämpö ylittää 42°C. Ruumiinlämpö voi nousta nopeasti (esimerkiksi saunojan unohduttua saunomaan liian pitkäksi aikaa sairauskohtauksen tai alkoholin takia) tai tila voi kehittyä hitaasti, jopa päivien aikana, liian kuumassa ympäristössä tai vaikkapa korkeassa kuumeessa.
+
+\nHikoilu loppuu nestevajauksen pahennuttua ja ihminen saattaa tuntea heikotusta, sekavuutta, näköhäiriöitä, oksentelua, ripulia, päänsärkyä, huimausta tai hän voi käyttäytyä tavanomaisesta poikkeavalla tavalla. Hengitys voi olla epäsäännöllistä, syke nopea ja verenpaine matala. Iho tuntuu kuivalta ja voi sinertyä tai nousta kananlihalle. Tila voi johtaa tajuttomuuteen, kouristeluihin tai elimistön vakavasti vaurioituessa jopa kuolemaan.
+\nLisätietoa linkistä:\nhttps://www.terveyskirjasto.fi/dlk00298?q=l%C3%A4mp%C3%B6halvaus
+\nhttps://www.terveyskirjasto.fi/spr00010
+
+        </item>
+    </string-array>
+    <string-array name="myrkytys">
+        <item>Myrkytys</item>
+        <item>Lukuisat eri aineet voivat aiheuttaa myrkytyksiä. Oireiden vakavuus ja ilmaantumisen nopeus riippuvat itse aineesta, sen määrästä ja tavasta miten aine on joutunut elimistöön. Myrkytystietokeskus vastaa numerossa 0800 147111 (varanumero 09 471 977) ympäri vuorokauden äkillisten myrkytysten ehkäisyyn ja hoitoon liittyviin kysymyksiin.</item>
+        <item>Onko kyseessä henkeä uhkaava tilanne? (Kouristelua, hengitysvaikeutta, tajuuttomuutta) </item>
+        <item>\n•	myrkytykseen liittyy henkeä uhkaava tilanne (esim. hengitysvaikeus, tajuttomuus, äkillinen kouristelu)</item>
+        <item>\n•	epäilet myrkytystä. Soita Myrkytystietokeskukseen 0800 147 111 (24/7)</item>
+        <item>-</item>
+        <item>https://www.hus.fi/haku/myrkytystietokeskus</item>
+    </string-array>
+    <string-array name="nakohairiot">
+        <item>Näköhäiriöt</item>
+        <item>Näköhäiriöt voivat olla merkki aivoverenkiertohäiriöstä. Aivoverenkiertohäiriöt alkavat yleensä äkillisesti. Aivoverenkiertohäiriöön viittaavia oireita ovat äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. Joskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä. Oireiden taustalla voi olla aivovaltimon tukos tai vuoto.</item>
+        <item>-</item>
+        <item>\n•	sinulla tai läheiselläsi on aivoverenkiertohäiriöön viittaavia oireita, kuten äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. Joskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä</item>
+        <item>-</item>
+        <item>-</item>
+        <item>
+            Aivoverenkiertohäiriö on yhteisnimitys aivoinfarktille, aivoverenvuodolle ja ohimenevälle aivoverenkiertohäiriölle (TIA). Aivoinfarkti ja aivoverenvuoto tunnetaan myös yhteisnimellä aivohalvaus. Aivoverenkiertohäiriöissä aivokudosta tuhoutuu äkillisen verenkierron häiriintymisen vuoksi. Aivoverenkiertohäiriöihin sairastuu vuosittain noin 24 000 suomalaista, joista neljäsosa on työikäisiä.
+
+\nAivoinfarkti
+
+\nAivovaltimon tukos aiheuttaa aivojen hapenpuutetta aivovaltimon suonittamalla alueella. Hapenpuutteen seurauksena syntyy kuolio eli infarkti. Aivovaltimotukoksen aiheuttaa yleensä valtimoiden kovettumatauti tai sydämestä lähtöisin oleva verihyytymä. Yleisin syy sydämestä lähtöisin olevalle verihyytymälle on sydämen rytmihäiriö.
+
+\nAivoverenvuoto
+
+\nAivoverenvuodossa aivovaltimo repeää ja vuotaa verta aivokudokseen. Verenvuoto aiheuttaa painetta vuotoa ympäröivälle aivoalueelle. Paineen seurauksena kyseisen aivoalueen hermokudoksen toiminta häiriintyy ja verenkierto vähenee vuotavan suonen alueella.
+
+\nTIA
+
+\nOhimenevän aivoverenkiertohäiriön (TIA) oireet ovat samanlaisia kuin aivohalvauksessakin, mutta oireet menevät itsestään ohitse tunnin tai viimeistään vuorokauden kuluessa. Oireiden ohimeno ei tarkoita, että tilanne olisi vaaraton. Noin yhdellä potilaalla kymmenestä ilmaantuu myöhemmin aivohalvaus.
+
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00001 \nhttps://www.terveyskyla.fi/aivotalo/sairaudet/aivoverenkiertoh%C3%A4iri%C3%B6t
+
+        </item>
+    </string-array>
+    <string-array name="paleltuma">
+        <item>Paleltuma</item>
+        <item>Paleltuman ensioireita ovat pistelyn tunne ja valkoisen alueen ilmaantuminen iholle. Suomen talvisissa olosuhteissa paleltumat ovat melko yleisiä, erityisesti lämpötilan ollessa alle –20 C astetta. Tavallisin on paikallinen paleltuma, joka aiheuttaa paleltuma-alueella pistelyä ja värin muutoksia. Vakavan paleltumavamman yhteydessä iholle ilmaantuu tunnottomuutta ja rakkuloita.</item>
+        <item>Onko paleltumavammoja havaittavissa laajoilla alueilla ja/tai paleltunut henkilö on huonosti heräteltävissä? </item>'
+        <item>\n•	paleltumavammoja on havaittavissa laajoilla alueilla
+\n•	paleltunut henkilö on huonosti heräteltävissä
+</item>
+        <item>
+            \n•	paleltumavammaan liittyvät ihon värin muutokset, tunto ja lämpö eivät palaudu tunnin sisällä vamman havaitsemisesta
+\nOta yhteyttä heti oman terveyskeskuksen kiirevastaanotolle tai päivystykseen.
+
+        </item>
+        <item>-</item>
+        <item>Paleltuman hoidossa on tärkeää, että paleltunutta aluetta lämmitetään nopeasti 37–40-asteisessa vedessä noin 20–30 minuutin ajan. Paleltunutta aluetta ei saa sulattaa avotulen lämmössä, koska tunnottomuuden vuoksi voi vahingossa syntyä palovamma.
+Lämmitys saattaa aiheuttaa paleltuma-alueella kipua, jonka hoitamiseksi voidaan tarvita kipulääkitystä. Aluetta ei saa hieroa eikä hangata. Paleltumavammojen ehkäisyksi ei pidä käyttää pakkasvoiteita, koska ne saattavat lisätä paleltumariskiä. Kylmällä säällä kannattaa pukeutua lämpimiin ja kosteutta eristäviin vaatteisiin sekä välttää nestehukkaa.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00315?q=paleltumavamma
+</item>
+    </string-array>
+    <string-array name="palovamma">
+        <item>Palovamma</item>
+        <item>Yleisin palovamman aiheuttaja on kuuma vesi. Lämpö aiheuttaa kudoksen vaurioitumisen sitä syvemmältä, mitä kuumempaa se on ja mitä pidempään ihokontakti kestää. Palovamma voi syntyä myös säteilyn, esimerkiksi auringon UV-säteilyn aiheuttamana, mutta tällöin vamma syntyy hitaammin. Sähkövirta voi aiheuttaa palovamman, joka voi ulottua syvälle kudoksiin, vaikka ihon pinta näyttäisi normaalilta.</item>
+        <item>Onko palovamman alue laaja tai onko henkilö hengittänyt kuuma hyöryä tai palokaasuja? </item>
+        <item>\n•	palovamma alue on laaja tai vammat ovat syviä
+\n•	olet hengittänyt kuumaa höyryä tai palokaasuja
+</item>
+        <item>
+            \n•	palovamma alue on omaa kämmentäsi suurempi
+\nOta yhteyttä heti oman terveyskeskuksen kiirevastaanotolle tai päivystykseen.
+
+        </item>
+        <item>
+            \nPienet ja lievät palovammat (kämmentä pienemmät 1. asteen palovammat) voidaan hoitaa itse. Vamma-aluetta jäähdytetään huoneenlämpöisen veden alla tai vesiastiassa 10-20 minuuttia. Viileä vesi lievittää kipua ja estää vamman leviämisen syvempiin ihokerroksiin. Rakkuloita ei saa puhkoa, ettei epäpuhtauksia pääsisi kudoksiin. Vaurioitunut iho peitetään rasvasidoksella tai silikoniverkolla ja ilmavalla sidoksella. Tarvittaessa voidaan ottaa kipulääkettä, kuten parasetamolia. Myöhemmässä vaiheessa riittää hoitava ja korjaava voide.
+        </item>
+        <item>
+            Palovammoja voivat aiheuttaa mm. avotuli, kuuma neste tai höyry, kuuma tai polttava esine, syövyttävät kemikaalit, sähkö tai säteily.
+\nPalovammat jaotellaan niiden laajuuden ja vaurion syvyyden mukaan:
+\n•	1. asteen palovammassa iholla on kipua ja punoitusta, mutta ei rakkuloita. Tunto on säilynyt ennallaan. Iho on kuiva, turvonnut ja kipeä. Tällainen vamma paranee nopeasti, eikä siitä jää jälkiä. Iho pinta saattaa hilseillä pois palaneelta alueelta.
+\n•	2. asteen palovammassa ihon pintakerros on palautumattomasti vaurioitunut ja sen alle kertyy kudosnestettä, jolloin ihoon muodostuu rakkuloita. Iho on kipeä ja turvonnut.
+\n•	3. asteen palovammassa vaurio ulottuu ihonalaisiin kudoksiin ja iho on vamma-alueelta palanut pois. Iho on kuiva, tunnoton, kova ja hiiltynyt.
+\nPalovamman laajuutta kuvataan yleensä prosenttilukuna eli arviona siitä, kuinka monta prosenttia koko ihon pinta-alasta on vaurioitunut. Esimerkiksi aikuisella kämmenen kokoinen palovamma-alue vastaa noin 1 % kehon pinta-alasta, koko yläraajan iho noin 9–10 % ja alaraajan noin 18 %.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00316?q=palovamma
+        </item>
+    </string-array>
+    <string-array name="puhehairiot">
+        <item>Puheen häiriöt</item>
+        <item>Puhehäiriön yleisin syy on aivoverenkiertohäiriö. Aivolähtöisestä puhehäiriöstä käytetään nimitystä afasia ja se merkitsee vaikeutta ymmärtää ja tuottaa puhuttua tai kirjoitettua kieltä. Aivoverenkiertohäiriöön liittyy usein myös muita oireita.</item>
+        <item>Onko henkilöllä vaikeuksia ymmärtää puhetta? </item>
+        <item>\n•	sinulle tai läheisellesi tulee puhehäiriö tai vaikeuksia ymmärtää puhetta</item>
+        <item>\nSeuraa tilannetta, jos tilanne pahenee ja henkilö ei ymmärrä/vastaa puheeseen, soita 112</item>
+        <item>-</item>
+        <item>Puhehäiriön aiheuttava vaurio on yleensä aivojen vasemmalla puoliskolla. Puhehäiriö voi ilmetä niin, että puhe on sujuvaa, mutta sanojen löytäminen on hankalaa. Puhe voi olla myös työlästä ja hidasta. Jos puhe on vuolasta, siinä voi esiintyä täysin tunnistamattomia tai outoja sanoja. Puhehäiriöstä huolimatta ajattelu ja älykkyys voivat olla täysin normaaleja.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00557 \nhttps://www.terveyskirjasto.fi/dlk00001 \nhttps://www.terveyskyla.fi/aivotalo/sairaudet/aivoverenkiertoh%C3%A4iri%C3%B6t
+</item>
+    </string-array>
+    <string-array name="putoaminen">
+        <item>Putoaminen</item>
+        <item>Putoamisia tapahtuu tyypillisesti työtapaturmissa, harrastuksissa tai urheillessa. Sängystä, tuolilta tai rappusista pudotaan myös. Putoamiselle saattaa altistaa esimerkiksi huimaus, sairaskohtaus, liukastuminen tai epäasialliset työolosuhteet. Putoamiset voivat aiheuttaa eriasteisia vammoja eri puolella kehoa, päätä ja raajoja.</item>
+        <item>Onko henkilö putoamisen jälkeen sekava tai ei herää/havahdu?</item>
+        <item>\n•	epäillään korkealta putoamista, vaikka ulospäin näkyviä vammoja ei olisikaan
+\n•	putoaminen on aiheutunut sairauskohtauksesta tai sähköiskusta
+\n•	putoamisen jälkeen henkilö on sekava tai ei herää
+\n•	henkilö ei pysty putoamisen jälkeen liikkumaan omin avuin
+</item>
+        <item>
+\n•	olet loukannut itseäsi putoamisen yhteydessä
+\nOta yhteyttä heti oman terveyskeskuksen kiirevastaanotolle tai päivystykseen.
+\nJos putoaminen on tapahtunut alle oman pituuden korkeudelta, esimerkiksi tuolilta, putoamisen aiheuttamat pienet kolaukset ja pinnalliset, pienet haavat voi hoitaa kotona.
+\nMikäli oireet jatkuvat, pahenevat tai voinnissa tapahtuu selkeä muutos huonompaan, on syytä olla yhteydessä terveydenhuollon ammattilaiseen uudelleen.
+
+        </item>
+        <item>-</item>
+        <item>
+            Putoaminen voi aiheuttaa iskun kovuudesta ja osumapaikasta riippuen erilaisia vaurioita kudoksiin. Putoamisessa iskun voima voi kohdistua muuallekin kuin iskukohtaan. Niinpä esimerkiksi putoaminen istualleen voi tuntua kipuna häntäluun lisäksi niskassa. Joskus putoaminen jaloilleen voi aiheuttaa jopa selän nikaman murtuman.
+Reisiluun varren, reisiluun kaulan tai lonkan murtuma johtuvat yleensä korkealta putoamisesta. Silloin sisäinen verenvuoto voi olla huomattavaa, vaikka ulospäin näkyviä vammoja ei juuri olisikaan.
+Putoaminen jäykästi suoraan jaloilleen voi aiheuttaa nilkkanivelen seudun murtuman ja kantapäille putoaminen murtuman kantaluussa.
+Joskus putoamisiin saattaa liittyä myös pään vamma. Pään vammat ovat seurausta päähän osuneesta iskusta, joka voi aiheuttaa pehmytkudosvaurioita, pään luiden murtumia ja mahdollisesti luiden ympäröimien kudosten (aivot, sisäkorva, silmät) vaurioita.
+Putoaminen voi aiheuttaa myös mitä tahansa muita pienempiä murtumia, venähdyksiä tai sijoiltaanmenoja, lihas- ja jännevammoja sekä haavoja ympäri kehoa.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00237?q=putoaminen https://www.terveyskirjasto.fi/dlk00633?q=selk%C3%A4vammat https://www.terveyskirjasto.fi/dlk00193?q=alaraajan%20murtumat
+
+        </item>
+    </string-array>
+    <string-array name="paansarky">
+        <item>Päänsärky(äkillinen, kova)</item>
+        <item>Vakavan päänsäryn tunnusmerkkinä on usein kivun erittäin nopea ja räjähtävä alku. Päänsärkyä kuvaillaan lamauttavaksi, ”elämän pahimmaksi” kivuksi, joka estää suorittamasta normaaleja elämän askareita. Äkillisen kovan päänsäryn taustalla voi olla aivokalvon alainen verenvuoto (SAV) tai vakava infektio kuten bakteerin aiheuttama aivokalvontulehdus.</item>
+        <item>Onko henkilöllä äkillisesti tullut kova, lamaannuttavalta tuntuva päänsärky? </item>
+        <item>\n•	sinulla tai läheiselläsi alkaa äkillinen kova päänsärky</item>
+        <item>\nJos päänsärky pahenee entisestään tai tuntuu kestävän pidempään kuin normaali päänsärky, ota yhteyttä lähimpään terveydenhuollon päivystykseen tai soita 112</item>
+        <item>-</item>
+        <item>Aivokalvon alaisessa verenvuodossa (SAV) veri purkautuu aivokalvojen alle eikä aivokudoksen sisään, joten oireet ovat täysin erilaiset kuin aivoverenvuodossa. Tyypillinen oire on äkkiä alkava kova ja hellittämätön päänsärky. Usein siihen liittyy pahoinvointia ja oksentelua, niska tuntuu jäykältä ja silmissä on valonarkuutta. Voi esiintyä myös kouristeluja ja tajuttomuutta. Joskus harvoin ilmenee halvausoireita. Oireiden voimakkuus vaihtelee paljon.
+
+\nPotilaalle voi syntyä nopeasti syvä tajuttomuus, ja toisessa ääripäässä on taksilla lääkäriin saapuva hyväkuntoinen potilas. SAV tarvitsee välitöntä hoitoa. Taudinkulku vaihtelee suuresti. Noin neljäsosa potilaista kuolee vuoden sisällä vuodosta. Toisaalta usein SAV:stä toivutaan täysin, ja onnistuneen leikkauksen jälkeen uusiutumisvaara on pieni.
+
+\nKorkea kuume, päänsärky, sekavuus ja tajunnan häiriöt ovat tyypillisiä bakteerin aiheuttaman aivokalvotulehduksen oireita. Usein on myös pahoinvointia. Jokaisella sairastuneella on kuumeen lisäksi ainakin jokin näistä oireista. Bakteeritaudeissa yleiskunto romahtaa yleensä päivän, parin kuluessa. Huonokuntoisuuden huomaa arkipäivän askareiden jaksamisessa. Hyvin iäkkäillä henkilöillä tauti voi olla kuumeetonkin, eikä huonokuntoisuuden syynä aina silloin tule mieleen aivokalvotulehdus.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00002?q=p%C3%A4%C3%A4ns%C3%A4rky \nhttps://www.terveyskirjasto.fi/dlk00558?q=p%C3%A4%C3%A4ns%C3%A4rky \nhttps://www.terveyskyla.fi/aivotalo/sairaudet/p%C3%A4%C3%A4ns%C3%A4rky \nhttps://www.terveyskyla.fi/aivotalo/sairaudet/aivovaltimopullistumat-ja-sav
+</item>
+    </string-array>
+    <string-array name="rintaKipu">
+        <item>Rintakipu</item>
+        <item>Rintakivun syy tulee aina selvittää ja sulkea pois vakavat sairaudet, kuten sydäninfarkti. Sydäninfarkti on äkillisen hapenpuutteen aiheuttama vaurio sydänlihaksessa. Sen tavallisin syy on sepelvaltimotaudin aiheuttama sepelvaltimon tukos. Mikäli sydäninfarktia ei päästä hoitamaan ajoissa, voi vauriokohtaan kehittyä kuolio muutamissa tunneissa tai päivissä.</item>
+        <item>-</item>
+        <item>
+            \n•	sinulla on rintakipua
+            \n•	hakeudu päivystykseen tarvittaessa
+        </item>
+        <item>-</item>
+        <item>-</item>
+        <item>Rintakipu ei välttämättä ole sydänperäistä. Rintakehä on kylkiluiden rajaama tila, jonka yläosia verhoavat hartioiden ja olkavarsien liikuttamiseen osallistuvat lihakset. Kylkiluiden välisessä tilassa ovat hengittämiseen osallistuvat kylkivälilihakset. Rintakehän sisällä sijaitsevat sydän, keuhkot ja suuret verisuonet sekä ruokatorvi. Kaikki mainitut kudokset ja elimet voivat olla rintakehällä tuntuvan kivun syynä, mutta kullakin sairaudella on myös omat ominaispiirteensä.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00324?q=rintakipu
+\nhttps://www.terveyskyla.fi/sydansairaudet/tietoa-syd%C3%A4nsairauksista/sepelvaltimotauti
+</item>
+    </string-array>
+    <string-array name="verenvuoto">
+        <item>Runsas verenvuoto</item>
+        <item>Yleisin runsaan verenvuodon aiheuttaja on vamma. Ihon tai sen alaisten kudosten vaurioitumisen laajuus sekä syvyys riippuvat vamman aiheuttajasta tai esimerkiksi iskun voimakkuudesta. Myös jokin vakava sairaus voi aiheuttaa runsasta verenvuotoa. Ulkoinen verenvuoto, esimerkiksi haava, on helppo havaita. Sisäisessä verenvuodossa veri vuotaa kehon sisälle ja sitä on vaikea nähdä. Runsaan verenvuodon aiheuttamia vakavia oireita ovat nopea ja heikosti tuntuva sydämen syke, tihentynyt hengitys, kalpea ja kylmänhikinen iho, pahoinvointi, janon tunne, levottomuus, sekavuus ja tajunnantason häiriöt.</item>
+        <item>Onko henkilöllä näkyvän verenvuodon lisäksi nopeasti heikentyvä syke, ihon kalpeamista, pahoinvointia tai tihentynyttä hengitystä? </item>
+        <item>\n•	sinulla tai läheiselläsi on runsasta verenvuotoa vammasta tai sairaudesta johtuen
+\n•	Verta vuotava henkilö on syytä asettaa istumaan tai makuulle ja nostaa vuotava raaja kohoasentoon, jotta matalakin verenpaine riittäisi turvaamaan aivojen verenkierron.
+\n•	Runsas verenvuoto on tyrehdytettävä mahdollisimman nopeasti painamalla vuotokohtaa. Aluksi vuotokohtaa voi painaa käsin, mutta haavaan on saatava mahdollisimman nopeasti kunnollinen painesidos. Painona voi olla sideharsorulla, kivi, korttipakka, sukka, käsine tai mikä tahansa läheltä löytyvä esine. Painesidoksen asettamisen jälkeen huolehdi, että raaja pysyy kohoasennossa esimerkiksi huivin avulla.
+\n•	Seuraa vuotopotilaan vointia ennen ensihoitohenkilöstön saapumista ja soita hätänumeroon 112 uudelleen, jos potilaan vointi äkillisesti heikkenee. Vatsan alueelle tullut pistohaava, ampumahaava tai onnettomuuden aiheuttama ruhjevamma voi helposti vahingoittaa vatsan alueen sisäelimiä ja aiheuttaa verenvuotosokin.
+\n•	Jos runsaasti vertavuotava henkilö menettää tajuntansa, käännä hänet kylkiasentoon hengitysteiden avoimuuden varmistamiseksi.
+</item>
+        <item>
+            \nVerenvuoto ei tyrehdy tai henkilöllä alkaa esiintymään tihentynyttä hengitystä, syke heikkenee tai ihon väri kalpenee
+        </item>
+        <item>
+            \nMikäli verenvuoto ei ole runsasta, vaan kyseessä on pieni haava joka vuotaa verta, eikä henkilön syke heikkene, iho kalpene tai hengitys tihene, puhdista haava ja pistä haavan päälle laastari tai sideharso
+        </item>
+        <item>
+           Suurimpia syitä runsaaseen verenvuotoon ovat erilaisten onnettomuuksien aiheuttamat vammat, jotka voivat olla sekä ulkoisia että sisäisiä. Esimerkiksi liikenneonnettomuuksissa törmäys voi olla kovakin, ja se voi aiheuttaa erilaisia rajusti vertavuotavia vammoja. Myös pahoinpitelyt, esimerkiksi puukotukset ja ampumahaavat, voivat vuotaa runsaasti. Harvinaisempia rajun vuodon aiheuttajia ovat kokonaisen raajan tai raajan osan leikkautuminen irti.
+
+\nUlkoinen verenvuoto
+
+\nUlkoinen verenvuoto aiheutuu yleensä haavasta. Runsasta verenvuotoa aiheuttavia haavatyyppejä ovat esimerkiksi viilto-, pisto-, ruhje- tai ampumahaava. Syvän haavan ulottuessa suureen verisuoneen, vuoto voi olla hyvinkin runsasta ja vaikeasti tyrehdytettävää. Esimerkiksi pistohaavassa verenvuoto ei kuitenkaan aina näy ulospäin suurena vuotona, mutta verenvuodosta kudokseen voi merkkinä olla turvotusta tai mustelma pistohaavan kohdalla.
+
+\nSisäinen verenvuoto
+
+\nSisäisessä verenvuodossa veri vuotaa kehon sisällä verisuonista tai elimistä kudoksiin sekä elimistön eri onteloihin, jolloin sitä voi olla vaikeampi havaita. Joskus sisäinen verenvuoto pyrkii ulos kehon luonnollisten aukkojen, kuten suun, peräaukon tai emättimen kautta. Sisäinen verenvuoto voi aiheutua erilaisista onnettomuuksien tai pahoinpitelyjen aiheuttamista vammoista tai sen aiheuttaja voi olla jokin vaikea sairaus.
+
+\nVerenvuotoshokki
+
+\nRunsas verenvuoto saattaa aiheuttaa verenkiertosokin, jolloin elimistössä kiertävän veren määrä on riittämätön ylläpitämään veren virtausta sekä veren happipitoisuutta ja näin aiheuttaa elimistön soluihin hapenpuutetta. Verenvuotosokin oireita ovat nopea ja heikosti tuntuva sydämen syke, tihentynyt hengitys, kalpea ja kylmänhikinen iho, pahoinvointi, janon tunne, levottomuus, sekavuus ja tajunnantason häiriöt.
+
+\nYllättävän verenvuodon syynä voi olla myös jokin vaikea sairaus, leikkauksen tai synnytyksen jälkeinen verenvuoto, perinnölliset veren hyytymistekijäpuutokset, lääkityskomplikaatiot (erilaiset verenohennuslääkkeet, tulehduskipulääkkeet sekä niiden annostusvirheet).
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/spr00007
+        </item>
+    </string-array>
+    <string-array name="suunpielenRoikkuminen">
+        <item>Suunpielen roikkuminen</item>
+        <item>Suupielen roikkuminen voi olla merkki aivoverenkiertohäiriöstä. Taustalla voi olla aivovaltimon tukos tai vuoto. Aivoverenkiertohäiriöön viittaavia oireita suupielen roikkumisen lisäksi ovat äkillisesti alkaneet toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt ja huimaus/tasapainohäiriö ja kävelyvaikeus.
+Suupielen roikkuminen voi johtua myös kasvohalvauksesta, joka on kasvohermon toiminnallinen häiriö, ei aivoista johtuva oire.
+</item>
+        <item>
+            Onko henkilöllä alkanut äkillisesti suunpielen roikkuminen ja onko henkilöllä muita aivoverenkierronhäiriöön liittyviä oireita? (käden/jalan voimattomuus/tunnottomuus, puheen ontuminen)
+        </item>
+        <item>
+            \n•	sinulla tai läheiselläsi on aivoverenkiertohäiriöön viittaavia oireita, kuten äkillisesti alkanut suupielen roikkuminen, toisen käden ja/tai jalan voimattomuus tai tunnottomuus, puheen puuromaisuus tai sanojen löytämisen/ymmärtämisen vaikeus, näköhäiriöt, huimaus/tasapainohäiriö ja kävelyvaikeus. Joskus aivoverenkiertohäiriöön voi liittyä myös päänsärkyä
+        </item>
+        <item>
+            \nSeuraa tilannetta, jos tilanne pahenee tai oireet eivät lähde pois tietyssä ajassa, tai vastaavat aivoverenkierronhäiriötä, soita 112
+        </item>
+        <item>-</item>
+        <item>Aivoverenkiertohäiriö on yhteisnimitys aivoinfarktille, aivoverenvuodolle ja ohimenevälle aivoverenkiertohäiriölle (TIA). Aivoinfarkti ja aivoverenvuoto tunnetaan myös yhteisnimellä aivohalvaus. Aivoverenkiertohäiriöissä aivokudosta tuhoutuu äkillisen verenkierron häiriintymisen vuoksi. Aivoverenkiertohäiriöihin sairastuu vuosittain noin 24 000 suomalaista, joista neljäsosa on työikäisiä.
+
+\nAivoinfarkti
+
+\nAivovaltimon tukos aiheuttaa aivojen hapenpuutetta aivovaltimon suonittamalla alueella. Hapenpuutteen seurauksena syntyy kuolio eli infarkti. Aivovaltimotukoksen aiheuttaa yleensä valtimoiden kovettumatauti tai sydämestä lähtöisin oleva verihyytymä. Yleisin syy sydämestä lähtöisin olevalle verihyytymälle on sydämen rytmihäiriö.
+
+\nAivoverenvuoto
+
+\nAivoverenvuodossa aivovaltimo repeää ja vuotaa verta aivokudokseen. Verenvuoto aiheuttaa painetta vuotoa ympäröivälle aivoalueelle. Paineen seurauksena kyseisen aivoalueen hermokudoksen toiminta häiriintyy ja verenkierto vähenee vuotavan suonen alueella.
+
+\nTIA
+
+\nOhimenevän aivoverenkiertohäiriön (TIA) oireet ovat samanlaisia kuin aivohalvauksessakin, mutta oireet menevät itsestään ohitse tunnin tai viimeistään vuorokauden kuluessa. Oireiden ohimeno ei tarkoita, että tilanne olisi vaaraton. Noin yhdellä potilaalla kymmenestä ilmaantuu myöhemmin aivohalvaus.
+
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00001 \nhttps://www.terveyskyla.fi/aivotalo/sairaudet/aivoverenkiertoh%C3%A4iri%C3%B6t
+</item>
+    </string-array>
+    <string-array name="sydanpysahdys">
+        <item>Sydänpysähdys</item>
+        <item>Kun ihmisen sydän on pysähtynyt, hän ei reagoi puhutteluun tai ravisteluun eikä hengitä normaalisti. On tärkeää tunnistaa tilanne nopeasti, hälyttää ammattiapua hätänumerosta 112 ja aloittaa elvytys nopeasti.</item>
+        <item>Reagoiko henkilö puhutteluun tai ravisteluun tai hengittääkö henkilö normaalisti?</item>
+        <item>\n•	henkilö ei reagoi puhutteluun tai ravisteluun
+\n•	henkilö ei hengitä normaalisti
+</item>
+        <item>
+            \nTarkkaile tilannetta, koita herätellä henkilö ja varmista että hengitystiet ovat auki. Jos henkilöstä ei saa vieläkään reaktiota, soita 112.
+        </item>
+        <item>-</item>
+        <item>Suomessa äkillisen sydänperäisen sydänpysähdyksen saa vuosittain 5 000–10 000 ihmistä. Sepelvaltimotauti ja siihen liittyvä sydäninfarkti on yleisin sydänpysähdyksen syy. Sydänpysähdyksen syyt vaihtelevat ikäryhmittäin. Muita tyypillisiä syitä ovat iäkkäillä sydämen rakenteelliset syyt ja nuorilla perinnölliset sairaudet, sydänlihastulehdus ja huumeiden käyttö. Sydänpysähdyksen voivat aiheuttaa myös erilaiset onnettomuus- tai tapaturmatilanteet.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00085
+\nhttps://www.terveyskirjasto.fi/spr00006
+\nhttps://www.terveyskyla.fi/paivystystalo/p%C3%A4ivystykseen/ensiapuverkkokurssit/pys%C3%A4hdy-auttamaan-elotonta
+</item>
+    </string-array>
+    <string-array name="sahkoisku">
+        <item>Sähköisku</item>
+        <item>Sähkövirta aiheuttaa monenlaisia vammoja. Eri asteisia vaurioita syntyy, kun kehon läpi kulkeva virta lämmittää kudoksia ja vaikuttaa kehon sähköisiin toimintoihin erityisesti sydämessä ja aivoissa. Sähköisku ei aina aiheuta päällepäin näkyviä vammoja. Sähköiskun saanut vaatii aina välitöntä tutkimusta ja hoitoa.</item>
+        <item>-</item>
+        <item>\n•	olet saanut sähköiskun</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Sähkövirta voi aiheuttaa palovammoja, jotka aiheutuvat sähköiskuun liittyvästä valokaaresta. Sähköisku, esimerkiksi salama, voi aiheuttaa myös erilaisia muita vammoja kuten murtumia. Voimakas sähkövirta voi aiheuttaa kehon läpi kulkiessaan sydämen sähköisen toiminnan häiriytymisen ja sydänpysähdyksen.
+\nKehossa sähkövirta voi aiheuttaa palovammoja, sisäelinvammoja ja verenkiertohäiriöitä. Sähkövirta aiheuttaa lihaksessa supistuksen, ja voimakas sähköisku tästä seuraavine lihaskouristuksineen voi aiheuttaa lihastuhoa. Vaikeimmillaan sähköiskun seurauksena voi kehittyä hankalia monielinvaurioita.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/dlk00334?q=s%C3%A4hk%C3%B6isku
+</item>
+    </string-array>
+    <string-array name="tajuttomuus">
+        <item>Tajuttomuus</item>
+        <item>Henkilö on tajuton, kun hän ei herää puhutteluun ja voimakkaaseen ravisteluun, mutta hengittää normaalisti. Tajuttoman henkilön hengitystiet ovat vaarassa tukkeutua kielen painuessa nieluun ja estäessä normaalin ilmavirran. Aseta tajuton aina kylkiasentoon hengityksen varmistamiseksi ja hälytä paikalle nopeasti ammattiapua. Yleisiä tajuttomuuden aiheuttajia ovat esimerkiksi hapenpuute, myrkytys, matala tai korkea verensokeri, epilepsia tai aivoverenkiertohäiriöt.</item>
+        <item>-</item>
+        <item>\nhenkilö on tajuton, eikä hän herää puhutteluun ja voimakkaaseen ravisteluun</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Tajunnan häiriöt voivat kehittyä nopeasti tai hitaasti. Tämän vuoksi auttajan on seurattava autettavan tajunnassa tapahtuvia muutoksia, kunnes vastuu autettavasta siirtyy ammattiauttajalle.
+Tajuttomuuden syyllä ei ole merkitystä ensiapua annettaessa. Tajutonta henkilöä on autettava aina heti, koska hän on vaarassa tukehtua nielun lihasten veltostuessa. Vaara on suurin, jos henkilö on selällään tai etukumarassa. Hänet tulee aina kääntää kylkiasentoon ja tarkistaa hengitys.
+\nLisätietoa linkistä: \nhttps://www.terveyskirjasto.fi/spr00005
+\nhttps://www.terveyskyla.fi/paivystystalo/p%C3%A4ivystykseen/ensiapuverkkokurssit/pys%C3%A4hdy-auttamaan-tajutonta
+</item>
+    </string-array>
+    <string-array name="vierasEsineHengitystie">
+        <item>Vierasesine hengitysteissä tai nielussa</item>
+        <item>Vierasesineellä tarkoitetaan mitä tahansa esinettä, joka joutuu kehon aukkoihin esimerkiksi nieluun. Aikuisilla ja vanhuksilla yleisin hengitysteiden tai nielun vierasesine on ruoka. Vierasesineen joutuminen nieluun voi aiheuttaa yskänärsytystä ja kakomista. Hengitysliikkeet ovat voimakkaita. Jos vierasesine aiheuttaa täydellisen tukoksen hengitysteissä, ihminen ei pysty puhumaan eikä yskimään. Vierasesine on pyrittävä poistamaan välittömästi.</item>
+        <item>-</item>
+        <item>\n•	hengitysteihin tai nieluun on juuttunut vierasesine
+\n•	Mikäli hengitysteihin, nieluun tai ruoansulatuskanavaan on joutunut nappiparisto, tulee hakeutua nopeasti terveyskeskuksen kiirevastaanotolle tai päivystykseen. Nappiparisto voi aiheuttaa vakavia syöpymiä muutamassa tunnissa.
+\n•	Jos vierasesineen hengitysteihinsä tai nieluunsa saanut henkilö menee tajuttomaksi, käännä hänet kylkiasentoon hengitysteiden avoimuuden varmistamiseksi. Jos tajuttomaksi mennyt lakkaa hengittämästä tai hengitys ei ole normaalia, soita hätänumeroon 112 ja aseta puhelimesi kaiutintoiminnolle. Hätäkeskuspäivystäjä neuvoo puhelimessa, kuinka elvytetään.
+\n•	Jos nielaistu vierasesine juuttuu kurkunpäähän vaikeuttaen hengitystä, se on välittömästi poistettava: taivuta ylävartaloa etukumaraan ja anna kämmenellä viisi perättäistä iskua lapojen väliin. Jos iskut eivät auta, tee viisi perättäistä ns. Heimlichin otetta.
+</item>
+        <item>-</item>
+        <item>-</item>
+        <item>\Pieni vierasesine voi joutua hengitysteihin tai nieluun huomaamatta ja aiheuttaa vain vähäisiä oireita, kuten pitkittynyttä yskää.
+
+\nRuokatorveen tai mahalaukkuun joutuneen vierasesineen koko ja muoto vaikuttavat siihen, onko sitä syytä etsiä ja poistaa vai voidaanko odottaa poistumista luonnollista tietä. Jos nielaisun jälkeen ei tunnu oireita, esine on päätynyt mahalaukkuun, ja on odotettavissa, että se kulkeutuu ulosteen mukana pois yleensä parissa vuorokaudessa.
+
+\nRuokatorveen juuttunut esine aiheuttaa poltetta ja kakistelua. Ruokatorven vierasesineet voidaan poistaa tähystämällä. Suolistoon asti päässyt esine ei yleensä aiheuta oireita, mutta joskus terävä esine voi vaurioittaa suolta tai se saattaa juuttua paikoilleen aiheuttaen suolen tukkeutumisen.
+
+\nSyövyttävää tai myrkyllistä ainetta erittävä esine voi aiheuttaa joko paikallisia tai yleisoireita. Esimerkki tällaisesta erityistapauksesta happamien ja emäksisien aineiden lisäksi on nappiparisto. EU:n alueella ei enää saa myydä elohopeaa sisältäviä nappiparistoja, mutta EU:n ulkopuolelta ostetusta paristosta voi erittyä elohopeaa. Muistakin nappiparistoista voi erittyä alkalisia aineita, jotka voivat aiheuttaa limakalvon syöpymän.
+\nLisätietoa linkistä: \nhttp://www.terveyskirjasto.fi/terveyskirjasto/tk.koti?p_artikkeli=dlk00343&amp;p_hakusana=vierasesine
+</item>
+    </string-array>
+    <!-- Last array is for the inclusion of all the names of the arrays above, so that they can be handled programmatically -->
+    <string-array name="healthProblemNames">
+        <item>allerginenReaktio</item>
+        <item>halvausTaiHeikkous</item>
+        <item>hengenAhdistus</item>
+        <item>huimausTasapainoKavelyVaikeus</item>
+        <item>kemikaaliAltistus</item>
+        <item>kouristusKohtaus</item>
+        <item>kadenJalanVoimattomuus</item>
+        <item>liikenneOnnettomuus</item>
+        <item>lampoUupumusTaiHalvaus</item>
+        <item>myrkytys</item>
+        <item>nakohairiot</item>
+        <item>paleltuma</item>
+        <item>palovamma</item>
+        <item>puhehairiot</item>
+        <item>putoaminen</item>
+        <item>paansarky</item>
+        <item>rintaKipu</item>
+        <item>verenvuoto</item>
+        <item>suunpielenRoikkuminen</item>
+        <item>sydanpysahdys</item>
+        <item>sahkoisku</item>
+        <item>tajuttomuus</item>
+        <item>vierasEsineHengitystie</item>
+    </string-array>
+</resources>

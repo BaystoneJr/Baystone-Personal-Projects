@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hätähelppi</string>
+    <string name="buttonYesString">Kyllä</string>
+    <string name="buttonNoString">Ei</string>
+    <string name="botMessage">Kuinka voin auttaa?</string>
+    <string name="botSearchHelp">Onko sinulla jokin seuraavista hätätilanteista?</string>
+    <string name="menuItemChatBotString">ChatBot</string>
+    <string name="menuItemProblemLibraryString">Ongelmakirjasto</string>
+    <string name="menuItemHelpCenter">Apua</string>
+    <string name="helpCenterMessageMainActivity">Kirjoita hakukenttään sen terveysongelman nimi, mikä sinulla tai muulla henkilöllä on ja paina alla olevasta listasta sitä kohtaa,
+        mikä vastaa ongelmaasi</string>
+    <string name="helpCenterMessageProblemLibrary">Paina listasta sitä terveysongelmaa, mistä haluat saada lisätietoa</string>
+    <string name="nuoliDescription">Nuoli</string>
+    <string name="findMoreInfoString">Löydä lisää tietoa ongelmasta painamalla alla olevaa nappia</string>
+</resources>
