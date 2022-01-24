@@ -1,6 +1,6 @@
-# TRIP DAIRY
+# TRIP DIARY
 
-This is the assignment 1 from the C++ projects. The trip dairy is program to for keeping up a driving diary.
+This is the assignment 1 from the C++ projects. The trip diary is program to for keeping up a driving diary.
 
 This project was created with Visual Studio Code IDE (Windows) and all of the code was compiled using GCC.
 
